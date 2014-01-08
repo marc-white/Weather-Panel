@@ -1,0 +1,15 @@
+svg.weatherpane {
+	width: 660px;
+	height: 220px;
+	padding: 5px;
+	background-size: contain;
+	fill: red;
+	border: 1px solid black;
+}
+
+@media screen and (max-width: 700px;) {
+	svg.weatherpane {
+	width: 90%;
+	}
+
+}

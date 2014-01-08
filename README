@@ -1,0 +1,14 @@
+This weatherpanel is currently implemented at http://www.mso.anu.edu.au/metdata.
+
+The code that initialises the weather panel follows this pattern:
+
+// Initialise system once DOM is ready
+var debugmode = false;
+
+$(document).ready( function() {
+		   window.SSOmetdata = new telescopeMet(telescopeName);
+		   $('#scope').text('Human telescope name'); // Rename the header tag to the current telescope name
+		   window.SSOweatherPanel = new weatherPanel(SSOmetdata); // Create the panel
+		   window.SSOmetdata.updateData(function() { SSOweatherPanel.updatePanel(); }) // Initial data push
+		   window.SSOweatherPanel.startTimer(59000); // Start the timer
+})

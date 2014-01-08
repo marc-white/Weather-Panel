@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>Test Weather Pane</title>
+
+<script rel='stylesheet' type='text/css' src='pane.css'></script>
+<script type='text/javascript' src='d3.v3.js' charset="utf-8"></script>
+<script type='text/javascript' src='jquery-1.10.2.js' charset='utf-8'></script>
+<script type='text/javascript' src='parsexml.js' charset='utf-8'></script>
+<script type='text/javascript' src='drawpanel.js' charset='utf-8'></script>
+
+<script type='text/javascript'>
+// Initialise system once DOM is ready
+var debugmode = true;
+
+$(document).ready( function() {
+	window.SSOmetdata = new telescopeMet('2.3');
+	$('#scope').text('2.3m');
+	// window.SSOmetdata = new telescopeMet('SM');
+	window.SSOweatherPanel = new weatherPanel(SSOmetdata);
+	SSOmetdata.updateData(function() { SSOweatherPanel.updatePanel(); })
+	SSOweatherPanel.startTimer(10000);
+	// window.SSOmetdata.stopTimer();
+	// var stuff = 'eek';
+})
+</script>
+
+</head>
+
+<body>
+
+	<h1 id='scope'>Telescope</h1>
+
+	<svg id='weatherpane'></svg><br />
+
+	<button onclick="SSOmetdata = new telescopeMet('2.3'); SSOweatherPanel.telescopeMet = SSOmetdata; SSOmetdata.updateData(function() { SSOweatherPanel.updatePanel(); }); $('#scope').text('2.3m');">2.3m ATT</button>
+	<button onclick="SSOmetdata = new telescopeMet('SM'); SSOweatherPanel.telescopeMet = SSOmetdata; SSOmetdata.updateData(function() { SSOweatherPanel.updatePanel(); }); $('#scope').text('SkyMapper');">SkyMapper</button>
+
+
+</body>
+
+</html>

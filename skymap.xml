@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metsys>
+<ident><name>metsys-skymapper</name><loc>SSO</loc><lat>-31.26997</lat><long>149.06987</long><hmsl>1130</hmsl>
+</ident>
+<date>2013-12-11</date>
+<utc>07:20:00</utc>
+<data>
+   <irs><name>Internal Rain Sensor</name><val>0</val><unit>none</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></irs>
+   <ers><name>External Rain Sensor</name><val>1</val><unit>none</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></ers>
+   <shok><name>Shutters Home OK</name><val>1</val><unit>none</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></shok>
+   <shf><name>Shutters Home Failed</name><val>0</val><unit>none</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></shf>
+   <shc><name>Shutters Closed</name><val>1</val><unit>none</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></shc>
+   <ship><name>Shutters in Position</name><val>0</val><unit>none</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></ship>
+   <ws><name>Wind speed</name><val>4.64</val><unit>m/s</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></ws>
+   <wsn><name>Wind speed min</name><val>3.70</val><unit>m/s</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></wsn>
+   <wsx><name>Wind speed max</name><val>4.30</val><unit>m/s</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></wsx>
+   <wd><name>Wind dir</name><val>230.00</val><unit>deg</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></wd>
+   <wdn><name>Wind dir min</name><val>213.00</val><unit>deg</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></wdn>
+   <wdx><name>Wind dir max</name><val>255.00</val><unit>deg</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></wdx>
+   <tdb><name>Temp ext</name><val>19.50</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></tdb>
+   <dp><name>Dew point</name><val>0.15</val><unit>Celsius</unit><stat>DERIVED</stat></dp>
+   <rh><name>Rel humidity</name><val>27.30</val><unit>%</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></rh>
+   <qfe><name>QFE</name><val>879.40</val><unit>hPa</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></qfe>
+   <it><name>Internal temperature</name><val>20.30</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></it>
+   <rain><name>Rain intensity</name><val>0.00</val><unit>mm/h</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></rain>
+   <rdur><name>Rain duration</name><val>42820.00</val><unit>s</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></rdur>
+   <racc><name>Rain accumulation</name><val>34.01</val><unit>mm</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></racc>
+   <hail><name>Hail intensity</name><val>0.00</val><unit>hits/sq cm h</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></hail>
+   <hacc><name>Hail accumulation</name><val>0.00</val><unit>hits/sq cm</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></hacc>
+   <hdur><name>Hail duration</name><val>0.00</val><unit>s</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></hdur>
+   <ht><name>Heating temperature</name><val>21.50</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></ht>
+   <hv><name>Heating voltage</name><val>23.80</val><unit>V</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></hv>
+   <sv><name>Supply voltage</name><val>24.30</val><unit>V</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></sv>
+   <refv><name>3.5V Reference voltage</name><val>3.51</val><unit>V</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></refv>
+   <skyt><name>sky minus ambient temperature</name><val>-20.20</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></skyt>
+   <dli><name>Day Light ADC</name><val>936</val><unit>V</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></dli>
+   <dst><name>Dome Status></name><val>1</val><unit>none</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></dst>
+</data>
+</metsys>

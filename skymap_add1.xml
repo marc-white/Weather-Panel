@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<fputm>
+<rep>15sec</rep>
+<data>
+<d125><name>Servo Sensor</name><val>142.81</val><unit>Kelvin</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></d125>
+<u225><name>Detector Temp 225</name><val>0.00</val><unit>Kelvin</unit><ctl>DISABLED</ctl><stat>NORMAL</stat></u225>
+<hp><name>Heater Power</name><val>0.00</val><unit>Percentage</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></hp>
+<hs><name>Heater Setting</name><val>2</val><unit>Integer</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></hs>
+<d118><name>Cu Temp 118</name><val>142.14</val><unit>Kelvin</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></d118>
+<d128><name>Cold Head</name><val>62.41</val><unit>Kelvin</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></d128>
+<d218><name>Cu Temp 218</name><val>144.43</val><unit>Kelvin</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></d218>
+<o3><name>Detetcor 215</name><val>480.00</val><unit>Kelvin</unit><ctl>DISABLED</ctl><stat>NORMAL</stat></o3>
+<d111><name>Cu Temp 111</name><val>145.05</val><unit>Kelvin</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></d111>
+<d211><name>Cu Temp 211</name><val>143.57</val><unit>Kelvin</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></d211>
+<d121><name>Cold Head</name><val>66.32</val><unit>Kelvin</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></d121>
+<d124><name>Invar Plate</name><val>156.16</val><unit>Kelvin</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></d124>
+<pres><name>Vacuum Pressue</name><val>5.39e-07</val><unit>bar</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></pres>
+<ct><name>Compressor temp</name><val>15</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></ct>
+<rpm1><name>Cryo 1 RPM</name><val>60</val><unit>RPM</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></rpm1>
+<rpm2><name>Cryo 2 RPM</name><val>60</val><unit>RPM</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></rpm2>
+<cs1><name>compressor Status 1</name><val>7</val><unit>Integer</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></cs1>
+<cs3><name>compressor Status 3</name><val>1</val><unit>Integer</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></cs3>
+<upss><name>UPS State</name><val>1</val><unit>Integer</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></upss>
+<upsrun><name>UPS Runtime</name><val>590</val><unit>Seconds</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></upsrun>
+<cwt1><name>Chiller 1 Temp</name><val>0.00</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></cwt1>
+<cwf1><name>Chiller 1 Flow</name><val>0.00</val><unit>L/min</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></cwf1>
+<rfc1><name>Chiller 1 Ref Faults</name><val>0</val><unit>Count</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></rfc1>
+<pffc1><name>Chiller 1 Flow Faults</name><val>0</val><unit>Count</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></pffc1>
+<tsp1><name>Chiller 1 Set Point</name><val>0.00</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></tsp1>
+<pot1><name>Chiller 1 On Time</name><val>0</val><unit>Percentage</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></pot1>
+<cwt2><name>Chiller 2 Temp</name><val>3.80</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></cwt2>
+<cwf2><name>Chiller 2 Flow</name><val>19.00</val><unit>L/min</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></cwf2>
+<rfc2><name>Chiller 2 Ref Faults</name><val>0</val><unit>Count</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></rfc2>
+<pffc2><name>Chiller 2 Flow Faults</name><val>0</val><unit>Count</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></pffc2>
+<tsp2><name>Chiller 2 Set Point</name><val>2.50</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></tsp2>
+<pot2><name>Chiller 2 On Time</name><val>82</val><unit>Percentage</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></pot2>
+<pnh><name>Pneumatics Humidity</name><val>3.68</val><unit>m/s</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></pnh>
+<ptmp><name>Pneumatics Temperature</name><val>16.20</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></ptmp>
+<p35ob><name>Pneumatics LM35 OB</name><val>18.51</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></p35ob>
+<pda><name>Dry Air Flow</name><val>9.00</val><unit>L/min</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></pda>
+<g750><name>Galil LM75 0 Temp</name><val>28.00</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></g750>
+<g753><name>Galil LM75 3 Temp</name><val>25.50</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></g753>
+<gt0><name>Galil 0 Thermistor</name><val>19.82</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></gt0>
+<gt1><name>Galil 1 Thermistor</name><val>23.54</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></gt1>
+<g35ob><name>Galil LM35 OB</name><val>24.86</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></g35ob>
+<gefv0><name>Galil EFV 0</name><val>0</val><unit>Boolean</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></gefv0>
+<gefv1><name>Galil EFV 1</name><val>0</val><unit>Boolean</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></gefv1>
+<ag750><name>Agilent_LM75 0 Temp</name><val>22.50</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></ag750>
+<ag752><name>Agilent_LM75 2 Temp</name><val>28.50</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></ag752>
+<agt0><name>Agilent 0 Thermistor</name><val>32.26</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></agt0>
+<agt1><name>Agilent 1 Thermistor</name><val>28.41</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></agt1>
+<ag35ob><name>Agilent LM35 OB</name><val>69.09</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></ag35ob>
+<s135ob><name>SAC 1 LM35 OB</name><val>14.84</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></s135ob>
+<s1350><name>SAC 1 LM35 0</name><val>15.33</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></s1350>
+<s1temp><name>SAC 1 Sens Temp</name><val>16.83</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></s1temp>
+<s1hum><name>SAC 1 Humidity</name><val>41.68</val><unit>Percentage</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></s1hum>
+<s235ob><name>SAC 2 LM35 OB</name><val>17.28</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></s235ob>
+<s2350><name>SAC 2 LM35 0</name><val>18.75</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></s2350>
+<s2temp><name>SAC 2 Sens Temp</name><val>17.02</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></s2temp>
+<s2hum><name>SAC 2 Humidity</name><val>40.91</val><unit>Percentage</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></s2hum>
+<amh><name>Ambient Humidity</name><val>40.47</val><unit>Percentage</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></amh>
+<amt><name>Ambient Temperature</name><val>15.71</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></amt>
+<am35ob><name>Ambient LM35 OB</name><val>16.31</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></am35ob>
+<pmt><name>M1 Temp</name><val>15.09</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></pmt>
+<tt0><name>Truss Temp 0</name><val>15.07</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></tt0>
+<tt1><name>Truss Temp 1</name><val>16.13</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></tt1>
+<pmtob><name>M1 LM35 OB</name><val>16.31</val><unit>Celsius</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></pmtob>
+<fputom><name>Operating Mode</name><val>0</val><unit>Integer</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></fputom>
+<croff><name>Cryo Off Cmd</name><val>2</val><unit>Tristate</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></croff>
+<hoff><name>Hetars Off Cmd</name><val>2</val><unit>Tristate</unit><ctl>ENABLED</ctl><stat>NORMAL</stat></hoff>
+</data>
+</fputm>
